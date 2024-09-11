@@ -1,0 +1,52 @@
+# Ignore binary files
+*.exe
+*.out
+*.app
+*.bin
+*.dll
+*.so
+*.dylib
+*.o
+*.a
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+
+# Ignore build directories
+/target
+/build
+
+# Ignore Cargo.lock (optional, if using Rust)
+Cargo.lock
+
+# Ignore image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+
+# Ignore node_modules (if using Node.js)
+node_modules/
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.iml
+
+# Ignore environment files
+.env
+
+# Ignore macOS Finder directory
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+Desktop.ini
+
