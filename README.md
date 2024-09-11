@@ -1,5 +1,3 @@
-# video hash crate
-
 # VideoHash Crate
 
 The `videohash` crate provides functionality for computing perceptual hashes (pHash) and difference hashes (dHash) from video files. This crate extracts frames from videos and computes these hashes for each frame.
