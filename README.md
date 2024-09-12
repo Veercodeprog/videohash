@@ -17,8 +17,6 @@ The `videohash` crate provides functionality for computing perceptual hashes (pH
 **Usage Example**:
 
 ```rust
-rust
-Copy code
 use videohash::compute_phash;
 
 fn main() -> Result<(), Box<dyn Error>> {
