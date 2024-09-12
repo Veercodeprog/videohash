@@ -7,6 +7,17 @@ edition = "2021"
 name = "videohash"
 path = "src/lib.rs"
 
+[package]
+name = "videohash"
+version = "0.1.0"
+authors = ["Veer Pratap Singh Tomar"]
+description = "The videohash crate provides functionality for computing perceptual hashes (pHash) and difference hashes (dHash) from video files. This crate extracts frames from videos and computes these hashes for each frame."
+license = "MIT"
+homepage = "https://github.com/Veercodeprog/videohash"
+repository = "https://github.com/Veercodeprog/videohash"
+edition = "2021"
+readme = "README.md"
+
 [dependencies]
 actix-web = "4.9.0"
 blake3 = "1.5.4"
